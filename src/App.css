@@ -1,0 +1,98 @@
+/* General layout */
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #d7e1f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(13, 9, 9, 0.1);
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #30404f;
+  color: #ebf0f7;
+  border-radius: 8px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Summary section */
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.summary-card {
+  background-color: #30404f;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ebf0f7;
+}
+
+.summary-card p {
+  font-size: 1.5rem;
+  color: #ebf0f7;
+}
+
+/* Currency Table */
+.currency-table-container {
+  overflow-x: auto;
+}
+
+.currency-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #89b0d9;
+}
+
+.currency-table th, .currency-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ebf0f7;
+}
+
+.currency-table .table-header {
+  background-color: #30404f;
+  color: #ebf0f7;
+}
+
+.currency-table .table-row:nth-child(even) {
+  background-color: #395479;
+}
+
+/* Loading Screen */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ebf0f7;
+  font-size: 2rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.footer a {
+  color: #30404f;
+  text-decoration: none;
+}
